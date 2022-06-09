@@ -1,0 +1,74 @@
+body {
+  background: url(https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg);
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  color: #0cc4d2;
+}
+#main-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 2rem;
+}
+#textinput {
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid rgb(9, 173, 102);
+  outline: none;
+  background: #acb7b7;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+#btn {
+  border-radius: 5px;
+  background: rgb(47, 213, 213);
+  border: inset rgb(0, 255, 64);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+/* .addtodolist{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2rem;
+
+} */
+.addtodolist li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+    border-radius: 5px;
+    border: 2px solid rgb(9, 173, 102);
+    outline: none;
+    background: #acb7b7;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  
+  }
+
+.addbtn {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  cursor: pointer;
+  border: inset rgb(0, 255, 64);
+  border-radius: 5px;
+
+
+  /* padding: 0.5rem 1rem; */
+}
+.remvbtn {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  cursor: pointer;
+  border: inset rgb(0, 255, 64);
+  border-radius: 5px;
+}
